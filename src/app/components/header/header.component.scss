@@ -108,6 +108,9 @@ $color-red: #E02C2B;
 }
 
 .fix-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   .nav-link {
     color: white;
   }
